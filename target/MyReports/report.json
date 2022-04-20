@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T10:33:38.749Z",
+        "line": 2,
+        "name": "Select Elements from WebPage",
+        "description": "",
+        "id": "test-the-webapplication;select-elements-from-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 98\nCurrent browser version is 100.0.4896.127 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027LP-5CD809BB53\u0027, ip: \u0027192.168.0.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00927AC3+2587331]\n\tOrdinal0 [0x008BADD1+2141649]\n\tOrdinal0 [0x007B3BB8+1063864]\n\tOrdinal0 [0x007D3638+1193528]\n\tOrdinal0 [0x007CF4B5+1176757]\n\tOrdinal0 [0x007CCC51+1166417]\n\tOrdinal0 [0x007FD12F+1364271]\n\tOrdinal0 [0x007FCD5A+1363290]\n\tOrdinal0 [0x007F84A6+1344678]\n\tOrdinal0 [0x007D53F6+1201142]\n\tOrdinal0 [0x007D62E6+1204966]\n\tGetHandleVerifier [0x00ACDF22+1680738]\n\tGetHandleVerifier [0x00B80DBC+2413564]\n\tGetHandleVerifier [0x009BD151+563089]\n\tGetHandleVerifier [0x009BBF13+558419]\n\tOrdinal0 [0x008C081E+2164766]\n\tOrdinal0 [0x008C5508+2184456]\n\tOrdinal0 [0x008C5650+2184784]\n\tOrdinal0 [0x008CF5BC+2225596]\n\tBaseThreadInitThunk [0x753B6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x779787D4+228]\n\tRtlGetAppContainerNamedObjectPath [0x779787A4+180]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:137)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:184)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:171)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:124)\r\n\tat com.hcl.webElemets.BaseClass.launchBrowser(BaseClass.java:34)\r\n\tat StepsDefinitions.home_page_Test.open_browser_to_test_the_application(home_page_Test.java:28)\r\n\tat ✽.open browser to test the Application(file:///C:/Users/piyush.sonkar/IdeaProjects/Hcl_Project/src/test/resources/webElementTest.feature:3)\r\n",
+              "duration": 12975000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "open browser to test the Application",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.open_browser_to_test_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "passing extract string to TextField",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.passing_extract_string_to_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "passing extract string to PswdField",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.passing_extract_string_to_pswd_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "click all checkboxes",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.click_all_checkboxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "deselect one checkbox",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.deselect_one_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "select one radio",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.select_one_radio()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select two values from multiple select",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.select_two_values_from_multiple_select()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "select one row from table",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.select_one_row_from_table()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on Submit button",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Successfully completed all Tests",
+            "match": {
+              "location": "StepsDefinitions.home_page_Test.Successfully_completed_all_Tests()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the webApplication",
+    "description": "",
+    "id": "test-the-webapplication",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/webElementTest.feature",
+    "tags": []
+  }
+]
